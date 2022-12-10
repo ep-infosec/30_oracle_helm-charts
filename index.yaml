@@ -1,0 +1,92 @@
+apiVersion: v1
+entries:
+  java-amc:
+  - apiVersion: v2
+    appVersion: "2.20"
+    created: "2022-12-01T22:40:46.241573214Z"
+    description: A Helm chart for Containerized Advanced Management Console
+    digest: 76a04c5832bb718e1dd1f91762cd484033821f21646861b771e323735101eb5b
+    name: java-amc
+    urls:
+    - https://oracle.github.io/helm-charts/charts/java-amc-1.0.0.tgz
+    version: 1.0.0
+  soa-suite:
+  - apiVersion: v2
+    appVersion: 12.2.1.4
+    created: "2022-12-01T22:40:46.257090179Z"
+    dependencies:
+    - condition: oracledb.provision
+      name: oracledb
+      repository: ""
+      version: 0.1.0
+    description: A Helm chart for Kubernetes
+    digest: 8ebd34ca04392915c7f49387e309889ee904dd4ed5278c1f36a4df84d49dcd0d
+    name: soa-suite
+    type: application
+    urls:
+    - https://oracle.github.io/helm-charts/charts/soa-suite-0.3.0.tgz
+    version: 0.3.0
+  - apiVersion: v2
+    appVersion: 12.2.1.4
+    created: "2022-12-01T22:40:46.253058656Z"
+    dependencies:
+    - condition: oracledb.provision
+      name: oracledb
+      repository: ""
+      version: 0.1.0
+    description: A Helm chart for Kubernetes
+    digest: 9224324efcde9bc741eb8371e386a88a7727338991c761ce7e5466ce321e4bc2
+    name: soa-suite
+    type: application
+    urls:
+    - https://oracle.github.io/helm-charts/charts/soa-suite-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: 12.2.1.4
+    created: "2022-12-01T22:40:46.248907745Z"
+    dependencies:
+    - condition: oracledb.provision
+      name: oracledb
+      repository: ""
+      version: 0.1.0
+    description: A Helm chart for Kubernetes
+    digest: d6ab090398db92398523e134c2fc9369e71d8bd5ab032c30c54414fc80fc422f
+    name: soa-suite
+    type: application
+    urls:
+    - https://oracle.github.io/helm-charts/charts/soa-suite-0.1.0.tgz
+    version: 0.1.0
+  tuxedo-bankapp:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2022-12-01T22:40:46.257923324Z"
+    description: A Helm chart for Kubernetes
+    digest: c316452d4f9bb8bbcb64546a7e088e5ebc9119cd9afb5694947632d9b6f96735
+    name: tuxedo-bankapp
+    type: application
+    urls:
+    - https://oracle.github.io/helm-charts/charts/tuxedo-bankapp-0.1.0.tgz
+    version: 0.1.0
+  tuxedo-lb:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2022-12-01T22:40:46.258669424Z"
+    description: A Helm chart for Kubernetes
+    digest: 252b45745207c35748db3fa9f5b9a7f96137bae72ec544e6870fc61508de92d9
+    name: tuxedo-lb
+    type: application
+    urls:
+    - https://oracle.github.io/helm-charts/charts/tuxedo-lb-0.1.0.tgz
+    version: 0.1.0
+  tuxedo-ws:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2022-12-01T22:40:46.259496213Z"
+    description: A Helm chart for Kubernetes
+    digest: c0a04f37e5f8919fe604c922248fd44afea07eb8c901db47f29d251a55c6e829
+    name: tuxedo-ws
+    type: application
+    urls:
+    - https://oracle.github.io/helm-charts/charts/tuxedo-ws-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-12-01T22:40:46.239802454Z"
